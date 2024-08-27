@@ -55,9 +55,9 @@ function Products() {
 
             <div className="cardContainer">{
 
-                data.map((product) => (
-                    <Card key={product.id} item={product} />
-                ))
+                // data.map((product) => (
+                //     <Card key={product.id} item={product} />
+                // ))
 
             }
 
