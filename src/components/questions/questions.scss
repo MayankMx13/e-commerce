@@ -1,0 +1,154 @@
+    .questions {
+        margin: 40px auto;
+        max-width: 1440px;
+        padding-top: 3rem;
+
+        .top {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            height: 13rem;
+
+
+
+
+            .left {
+                flex: 4;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+
+                gap: 14px;
+                height: 100%;
+                padding-left: 40px;
+
+
+                h2 {
+                    font-size: 48px;
+                    font-weight: medium;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: normal;
+                }
+
+                .buttons {
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    gap: 20px;
+
+
+                    button {
+                        padding: 10px 20px;
+                        border: none;
+                        color: #B3B3B2;
+                        border: 2px dashed #1a1a1a;
+                        border-radius: 10px;
+
+                        &:hover {
+                            background-color: #C2B4A3;
+                            color: black;
+                            border: none;
+
+
+                        }
+
+
+                    }
+                }
+            }
+
+            .right {
+                flex: 1;
+                height: 100%;
+                width: 20%;
+                overflow: hidden;
+
+                img {
+                    height: 20rem;
+                    width: 20rem;
+                }
+            }
+        }
+
+
+        .bottom {
+            display: flex;
+            align-items: center;
+
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+
+
+            .qContainer {
+                padding: 40px;
+
+                width: 40%;
+
+                border-top: 3px dashed #1a1a1a;
+
+
+
+            }
+
+            .wardrobe {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                background-color: #C2B4A3;
+                width: 100%;
+                margin-top: 70px;
+                border-radius: 20px;
+
+                .left {
+                    background-color: #C2B4A3;
+                    padding-left: 50px;
+
+                    h2 {
+                        text-transform: uppercase;
+                        font-size: 48px;
+                        background-color: #C2B4A3;
+                        color: black;
+                    }
+
+                    p {
+                        background-color: #C2B4A3;
+                        color: black;
+                    }
+                }
+
+                .right {
+
+                    background-color: #C2B4A3;
+                    border-radius: 20px;
+                    position: relative;
+
+                    a {
+                        position: absolute;
+                        text-decoration: none;
+                        padding: 10px 20px;
+                        border-radius: 15px;
+                        background-color: #1a1a1a;
+                        top: 145px;
+                        left: 240px;
+                        font-size: 20px;
+                    }
+
+                    img {
+                        background-color: #C2B4A3;
+                        border-radius: 20px;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+
+        }
+    }

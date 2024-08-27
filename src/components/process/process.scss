@@ -1,0 +1,96 @@
+.processw {
+    max-width: 1440px;
+    width: 100%;
+    height: 35rem;
+
+    margin: 20px auto;
+    border: 2px dashed #1a1a1a;
+    border-radius: 20px;
+
+    .up {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 15rem;
+        border-bottom: 2px dashed #1a1a1a;
+
+        .head {
+            flex: 3;
+            padding: 30px;
+            margin-left: 20px;
+
+            h1 {
+                font-weight: medium;
+                font-size: 48px;
+
+            }
+
+            p {
+                color: #676767;
+            }
+        }
+
+        .vector {
+            flex: 1;
+            height: 100%;
+            width: 25%;
+            overflow: hidden;
+            position: relative;
+
+
+            img {
+                position: absolute;
+                top: -30px;
+                left: 100px;
+            }
+
+        }
+    }
+
+    .bottom {
+        height: 18rem;
+        display: flex;
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 30px;
+            justify-content: center;
+            height: 100%;
+            width: 25%;
+            padding: 25px;
+            padding-bottom: 0px;
+
+            border-left: 2px dashed #1a1a1a;
+            border-top: none;
+
+
+            &:last-child {
+                border-right: none;
+            }
+
+            &:first-child {
+                border-left: none;
+            }
+
+            span {
+                font-size: 20px;
+                color: #676767;
+            }
+
+            h3 {
+                font-weight: 28px;
+                font-weight: medium;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: normal;
+                color: #676767;
+            }
+        }
+    }
+}

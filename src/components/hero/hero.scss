@@ -1,0 +1,156 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border: 2px dashed #1a1a1a;
+    border-radius: 20px;
+
+    height: 40rem;
+    margin: 30px 8rem;
+    max-width: 1440px;
+
+
+
+
+    .top {
+        flex: 2;
+
+        height: 50%;
+        width: 100%;
+
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 20px 20px 0px 0px;
+
+        }
+    }
+
+    .bottom {
+        padding: 40px;
+        flex: 1;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .shop {
+            position: absolute;
+            top: -20px;
+            border: none;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            background-color: grey;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+
+            button {
+                border: none;
+                font-size: large;
+                padding: 10px;
+                border-radius: 15px;
+                background-color: #1f1f1f;
+
+
+
+
+                &:hover {
+                    background-color: white;
+                    color: black;
+                }
+
+            }
+        }
+
+        .left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            gap: 20px;
+            padding: 20px;
+
+            .route {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 15px;
+
+
+                a {
+                    text-decoration: none;
+                    padding: 10px;
+                    border: dashed 2px #1a1a1a;
+                    border-radius: 10px;
+
+                    color: #B3B3B2;
+
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                        border: none;
+                    }
+
+                }
+
+            }
+
+            .heading {
+                font-size: 2em;
+                font-weight: bold;
+            }
+
+            .desc {
+                color: #676665;
+            }
+
+
+
+        }
+
+        .right {
+            flex: 1;
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+
+
+            div {
+                flex: 1 0 50%;
+                /* Each div takes up 50% of the container width */
+                box-sizing: border-box;
+                /* Ensures padding and border are included in the width */
+                padding: 10px;
+                /* Optional: add some spacing around each div */
+                border: 2px solid #000;
+                /* Optional: to visualize the divs */
+                height: 100px;
+
+
+            }
+
+            span {
+                font-size: small;
+                color: #676665;
+            }
+
+
+        }
+    }
+
+}
