@@ -6,7 +6,7 @@ function Navbar() {
         <div className='navbar'>
             <div className="left">
                 <Link className="home" to="/">Home</Link>
-                <Link className='products' to="products">Products</Link>
+                <Link className='products' to="/products" >Products</Link>
             </div>
             <div className="mid"><img src="/logo.png" alt="" /></div>
             <div className="right">
