@@ -1,22 +1,20 @@
 import { Link } from "react-router-dom";
 import "./products.scss";
-
 import Card from "./card";
 import { useEffect, useState } from "react";
 
 
 
 function Products() {
-    const [data, setData] = useState();
+    const [data, setData] = useState([]);
+    const PORT = import.meta.env.VITE_SERVER_URL;
 
     useEffect(() => {
-        console.log(
-            "run"
-        )
+
         const fetchproducts = async () => {
 
             try {
-                const res = await fetch("http://localhost:3000/products");
+                const res = await fetch(PORT + "products");
                 console.log(res);
                 if (!res.ok) throw new Error("network not working");
 
@@ -55,9 +53,9 @@ function Products() {
 
             <div className="cardContainer">{
 
-                // data.map((product) => (
-                //     <Card key={product.id} item={product} />
-                // ))
+                data.map((product) => (
+                    <Card key={product.id} item={product} />
+                ))
 
             }
 

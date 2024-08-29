@@ -5,6 +5,7 @@ import Navbar from '../../components/navbar/navbar'
 import Process from '../../components/process/process'
 import Products from '../../components/product/products'
 import Questions from '../../components/questions/questions'
+import Recommend from '../../components/recommend/recommend'
 import './homepage.scss'
 
 function Homepage() {
@@ -24,6 +25,7 @@ function Homepage() {
             <div className='product'>
                 <Products />
             </div>
+            <Recommend />
             <div className='question'>
                 <Questions />
             </div>

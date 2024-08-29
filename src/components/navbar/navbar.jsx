@@ -1,14 +1,17 @@
+import { Link } from 'react-router-dom'
 import './navbar.scss'
 
 function Navbar() {
     return (
         <div className='navbar'>
-            <div className="left"><button className='home'>Home</button>
-                <button className='products'>Products</button>
+            <div className="left">
+                <Link className="home" to="/">Home</Link>
+                <Link className='products' to="products">Products</Link>
             </div>
             <div className="mid"><img src="/logo.png" alt="" /></div>
-            <div className="right"><img className='cart' src="/cart.png" alt="" />
-                <button className='contact'>Contact</button>
+            <div className="right">
+                <img className='cart' src="/cart.png" alt="" />
+                <Link className="contact" to="/contact">Contact</Link>
             </div>
         </div>
     )

@@ -36,5 +36,85 @@
             "fit": "ankle length",
             "price": "$123"
         }
-    ]
+    ],
+    "womens": {
+        "dress": [
+            {
+                "id": 1,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 2,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 3,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 4,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            }
+        ],
+        "asses": [
+            {
+                "id": 1,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 2,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 3,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 4,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            }
+        ],
+        "bags": [
+            {
+                "id": 1,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 2,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 3,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            },
+            {
+                "id": 4,
+                "name": "Timeless A-line Evening Dress",
+                "fit": "ankle length",
+                "price": "$123"
+            }
+        ]
+    }
 }

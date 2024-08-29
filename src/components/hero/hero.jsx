@@ -27,7 +27,7 @@ function Hero() {
                 </div>
 
                 <div className="shop">
-                    <button>Shop Now</button>
+                    <Link to="/products">Shop Now</Link>
 
                 </div>
 

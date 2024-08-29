@@ -1,0 +1,203 @@
+.contact {
+    .onediv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 1440px;
+        margin: 40px auto;
+        border-radius: 20px;
+        border: 2px dashed #1a1a1a;
+
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 15rem;
+
+            width: 100%;
+
+
+
+            .left {
+                flex: 3;
+
+                h2 {
+                    padding: 30px;
+                    font-size: 48px;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    padding-bottom: 20px;
+                }
+
+                p {
+                    padding: 0px 30px;
+                    color: #676665;
+                }
+            }
+
+            .right {
+                flex: 1;
+                position: relative;
+                height: 100%;
+                overflow: hidden;
+
+                img {
+                    position: absolute;
+                    top: -30px;
+                    left: 100px;
+                    height: 20rem;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border: 2px dashed #1a1a1a;
+        border-left: none;
+        border-right: none;
+
+        h2 {
+            padding: 20px;
+        }
+    }
+
+    .cards {
+        display: flex;
+        height: 15rem;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 20px;
+
+
+        .det {
+            height: 100%;
+            width: 33.33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: 2px dashed #1a1a1a;
+            border-right: none;
+
+            gap: 10px;
+
+            img {
+                height: 4rem;
+                margin-bottom: 25px;
+            }
+
+            h2 {
+                font-size: 24px;
+                font-weight: medium;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: normal;
+                padding: 10px 20px;
+                border-radius: 10px;
+                background-color: #1a1a1a;
+            }
+
+            &:first-child {
+                border-left: none;
+            }
+        }
+    }
+
+    .twodiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 1440px;
+        margin: 0px auto;
+        border: 2px dashed #1a1a1a;
+        margin-top: 4rem;
+        border-radius: 20px;
+
+        .head2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 8rem;
+            width: 98%;
+            border-bottom: 2px dashed #1a1a1a;
+
+            h3 {
+                font-size: 48px;
+                font-weight: normal;
+                margin-left: 20px;
+
+            }
+
+            a {
+                text-decoration: none;
+                padding: 20px 20px;
+                background-color: #1a1a1a;
+                color: white;
+                margin-right: 20px;
+                border-radius: 20px;
+                border: 1px solid white;
+
+                &:hover {
+                    background-color: white;
+                    color: black;
+
+                }
+            }
+
+        }
+
+        .cards {
+            width: 100%;
+            display: flex;
+
+
+
+            .det2 {
+                display: flex;
+                border-left: 2px dashed #1a1a1a;
+                height: 100%;
+                width: 33%;
+                align-items: center;
+                justify-content: center;
+                padding-left: 30px;
+                padding-right: 30px;
+
+                gap: 20px;
+
+                p {
+                    color: #81807E;
+                    margin-top: 10px;
+                }
+
+                &:first-child {
+
+                    border-bottom-left-radius: 20px;
+                    border-left: none;
+                }
+
+                &:last-child {
+                    border-bottom-right-radius: 20px;
+                }
+
+
+
+                img {
+                    height: 4rem;
+                }
+            }
+
+        }
+    }
+
+
+}

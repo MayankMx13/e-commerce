@@ -20,6 +20,7 @@
             color: white;
             border-radius: 12px;
             cursor: pointer;
+            text-decoration: none;
         }
 
         .products {
@@ -29,6 +30,7 @@
             color: white;
             border-radius: 12px;
             cursor: pointer;
+            text-decoration: none;
 
             &:hover {
                 background-color: #1A1A1A;
@@ -76,6 +78,7 @@
             border-radius: 12px;
             cursor: pointer;
             font-size: medium;
+            text-decoration: none;
         }
     }
 }

@@ -1,0 +1,99 @@
+.cardContainer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+
+
+    .card {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        border: 2px dashed #1a1a1a;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        gap: 20px;
+
+        &:last-child {
+            border-left: none;
+            border-right: none;
+        }
+
+        .top {
+            flex: 2;
+            overflow: hidden;
+
+            img {
+                border-radius: 20px 20px 0px 0px;
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+
+            }
+        }
+
+        .bottom {
+            width: 100%;
+
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+
+            .details {
+                margin: 0px 40px;
+                display: flex;
+                justify-content: space-between;
+
+
+                align-items: center;
+
+                span {
+                    padding: 10px;
+                    background-color: #1a1a1a;
+                    border-radius: 10px;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    padding: 10px;
+                    background-color: #1a1a1a;
+                    border-radius: 10px;
+                    border: 1px solid white
+                }
+            }
+
+            .nameprice {
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin: 0px 40px;
+                gap: 15px;
+                font-family: 'Roboto-mono';
+
+
+
+                .desc {
+
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+                    gap: 15px;
+                }
+
+            }
+        }
+
+    }
+}
