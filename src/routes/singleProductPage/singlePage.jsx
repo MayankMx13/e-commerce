@@ -1,7 +1,7 @@
 import Footer from '../../components/footer/footer'
 import Questions from '../../components/questions/questions'
 import Recommend from '../../components/recommend/recommend'
-import './singlePage.scss'
+import './singlepage.scss'
 
 function SinglePage() {
     return (
