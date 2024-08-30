@@ -1,18 +1,22 @@
+@import "../../responsive.scss";
+
 .hero {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 1440px;
     border: 2px dashed #1a1a1a;
     border-radius: 20px;
 
     height: 40rem;
-    margin: 30px 8rem;
-    max-width: 1440px;
+    margin: 30px auto;
 
 
+    @include md {
+        max-width: 1000px;
 
+    }
 
     .top {
         flex: 2;

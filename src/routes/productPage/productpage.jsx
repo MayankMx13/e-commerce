@@ -1,7 +1,7 @@
 
 import Footer from '../../components/footer/footer'
 import Questions from '../../components/questions/questions'
-import './productpage.scss'
+import './productPage.scss'
 import Navbar from '../../components/navbar/navbar'
 import Productsearch from '../../components/productsearch/productsearch'
 import Recommend from '../../components/recommend/recommend'
