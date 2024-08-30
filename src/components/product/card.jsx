@@ -9,7 +9,7 @@ function Card({ product }) {
             <div className="bottom">
                 <div className="details">
                     <span>Womenswear</span>
-                    <Link>
+                    <Link to="/singlePage">
                         Shop now
                     </Link>
                 </div>
