@@ -1,12 +1,21 @@
 /* eslint-disable no-undef */
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
+import app from "./app.js";
 
 dotenv.config();
 
 const PORT = process.env.PORT;
 
-connectDB();
+connectDB()
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log(`listening on port :${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.log("MongoDB Connection Failed!!!", err);
+  });
 
 // method 1
 // import express from "express";
