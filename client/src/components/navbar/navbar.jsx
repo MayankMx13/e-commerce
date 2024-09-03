@@ -12,6 +12,7 @@ function Navbar() {
             <div className="right">
                 <img className='cart' src="/cart.png" alt="" />
                 <Link className="contact" to="/contact">Contact</Link>
+                <Link className='login' to="/login">Login</Link>
             </div>
         </div>
     )

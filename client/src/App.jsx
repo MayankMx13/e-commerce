@@ -5,12 +5,24 @@ import Productpage from './routes/productPage/productpage';
 import Contact from './routes/contact/contact';
 import SinglePage from './routes/singleProductPage/singlePage';
 
+import Login from './components/login/login';
+import Register from './components/register/register';
+
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Homepage />,
-    }, {
+    },
+    {
+      path: "/login",
+      element: <Login />
+    },
+    {
+      path: "/Register",
+      element: <Register />
+    },
+    {
       path: "/products",
       element: <Productpage />
     }, {
