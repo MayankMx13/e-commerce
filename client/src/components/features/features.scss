@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .feature {
     display: flex;
     align-items: center;
@@ -9,6 +11,14 @@
     margin: 40px auto;
     border: 2px dashed #1a1a1a;
     border-radius: 20px;
+
+    @include sm {
+        width: 85rem;
+        margin-left: 3rem;
+
+    }
+
+
 
 
     .up {
@@ -52,6 +62,10 @@
             padding: 50px;
             border-left: none;
             position: relative;
+
+            @include sm {
+                flex-direction: row;
+            }
 
 
 

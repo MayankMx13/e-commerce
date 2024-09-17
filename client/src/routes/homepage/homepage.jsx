@@ -12,27 +12,13 @@ function Homepage() {
     return (
         <div className='homepage'>
             <Navbar />
-
-            <div className='hero'>
-                <Hero />
-            </div>
-            <div className="features">
-                <Features />
-            </div>
-            <div className='process'>
-                <Process />
-            </div>
-            <div className='product'>
-                <Products />
-            </div>
+            <Hero />
+            <Features />
+            <Process />
+            <Products />
             <Recommend />
-            <div className='question'>
-                <Questions />
-            </div>
-            <div className='footer'>
-                <Footer />
-            </div>
-
+            <Questions />
+            <Footer />
         </div>
     )
 }

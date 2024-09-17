@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
 import './login.scss'
 
+
 function Login() {
     return (
         <div className='login'>
-
+            <Link className="HB" to="/">Home</Link>
 
             <form action="">
                 <img src="/logo.png" alt="" />

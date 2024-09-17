@@ -110,17 +110,17 @@ function Contact() {
                 </div>
             </div>
 
-            <div className="recommend">
-                <Recommend />
-            </div>
 
-            <div className="questions">
-                <Questions />
-            </div>
+            <Recommend />
 
-            <div className="footer">
-                <Footer />
-            </div>
+
+
+            <Questions />
+
+
+
+            <Footer />
+
         </div>
     )
 }

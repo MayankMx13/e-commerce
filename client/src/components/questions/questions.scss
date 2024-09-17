@@ -1,7 +1,14 @@
+    @import "../../responsive.scss";
+
     .questions {
         margin: 40px auto;
         max-width: 1440px;
         padding-top: 3rem;
+
+        @include sm {
+            width: 100rem;
+            margin-left: 4rem;
+        }
 
         .top {
             display: flex;

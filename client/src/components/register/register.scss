@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .register {
     display: flex;
     align-items: center;
@@ -7,7 +9,29 @@
 
 
 
+    @include sm {
+        position: absolute;
+        width: 100vw;
+        top: -70px;
+        margin-left: 2rem;
+    }
 
+    .HB {
+        background-color: #1A1A1A;
+        padding: 15px 20px;
+        border: none;
+        color: white;
+        border-radius: 12px;
+        cursor: pointer;
+        text-decoration: none;
+        z-index: 99;
+
+
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+    }
 
     form {
         display: flex;

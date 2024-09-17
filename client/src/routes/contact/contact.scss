@@ -1,4 +1,9 @@
+@import "../../responsive.scss";
+
 .contact {
+
+
+
     .onediv {
         display: flex;
         align-items: center;
@@ -9,6 +14,11 @@
         border-radius: 20px;
         border: 2px dashed #1a1a1a;
 
+        @include sm {
+            width: 100rem;
+            margin-left: 4rem;
+        }
+
         .head {
             display: flex;
             align-items: center;
@@ -16,6 +26,12 @@
             height: 15rem;
 
             width: 100%;
+
+
+            @include sm {
+                width: 100rem;
+                margin-left: 4rem;
+            }
 
 
 
@@ -65,6 +81,9 @@
         h2 {
             padding: 20px;
         }
+
+
+
     }
 
     .cards {
@@ -74,6 +93,12 @@
         align-items: center;
         justify-content: space-between;
         border-radius: 20px;
+
+        @include sm {
+            width: 100rem;
+            margin-left: 4rem;
+        }
+
 
 
         .det {
@@ -87,6 +112,9 @@
             border-right: none;
 
             gap: 10px;
+
+
+
 
             img {
                 height: 4rem;
@@ -122,6 +150,12 @@
         border: 2px dashed #1a1a1a;
         margin-top: 4rem;
         border-radius: 20px;
+
+        @include sm {
+            width: 100rem;
+            margin-left: 4rem;
+        }
+
 
         .head2 {
             display: flex;
@@ -198,6 +232,11 @@
 
         }
     }
+
+
+
+
+
 
 
 }

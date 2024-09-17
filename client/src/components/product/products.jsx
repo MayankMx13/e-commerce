@@ -33,7 +33,7 @@ function Products() {
     }, []);
 
     return (
-        <div className="products">
+        <div className="product">
             <div className="up">
                 <div className="left">
                     <h2>Elevate Your Style with Our Latest Collection</h2>

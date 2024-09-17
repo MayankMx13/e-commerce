@@ -4,6 +4,8 @@ import './register.scss'
 function Register() {
     return (
         <div className='register'>
+
+            <Link className="HB" to="/">Home</Link>
             <form action="">
                 <img src="./logo.png" alt="" />
                 <label htmlFor="username">Username</label>

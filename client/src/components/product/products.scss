@@ -1,4 +1,6 @@
-.products {
+@import "../../responsive.scss";
+
+.product {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -9,6 +11,11 @@
     border: 2px dashed #1a1a1a;
     border-radius: 20px;
 
+
+    @include sm {
+        width: 105rem;
+        margin-left: 4rem;
+    }
 
     .up {
         width: 100%;

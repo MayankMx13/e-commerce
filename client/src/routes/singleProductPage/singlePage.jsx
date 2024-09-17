@@ -96,12 +96,9 @@ function SinglePage() {
             </div>
 
             <Recommend />
-            <div className='question'>
-                <Questions />
-            </div>
-            <div className='footer'>
-                <Footer />
-            </div>
+            <Questions />
+            <Footer />
+
         </div>
     )
 }

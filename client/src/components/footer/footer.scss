@@ -1,6 +1,13 @@
+@import "../../responsive.scss";
+
 .footer {
     max-width: 1440px;
     margin: 0px auto;
+
+    @include sm {
+        width: 100rem;
+        margin-left: 4rem;
+    }
 
     .Slider {
         display: flex;

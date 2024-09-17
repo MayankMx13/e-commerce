@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .navbar {
     display: flex;
     align-items: center;
@@ -6,6 +8,11 @@
 
     margin: auto;
     padding: 1px 7rem;
+
+    @include sm {
+        width: 85rem;
+
+    }
 
     .left {
         display: flex;
@@ -42,6 +49,8 @@
             }
 
         }
+
+
     }
 
     .mid {
